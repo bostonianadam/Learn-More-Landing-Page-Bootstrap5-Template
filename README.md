@@ -7,7 +7,7 @@ Learn More Landing Page Bootstrap 5 Template by BostonianAdam is a free HTML 5 /
 ## Built With
 * HTML5
 * CSS
-* [Bootstrap 5](https://getbootstrap.com/) - Components used: Buttons, Cards, Form, Navbar, Scrollspy
+* [Bootstrap 5](https://getbootstrap.com/) - Components used: Buttons, Cards, Form, Modal, Navbar
 * [Bootstrap Icons](https://icons.getbootstrap.com/)
 
 ## Authors
