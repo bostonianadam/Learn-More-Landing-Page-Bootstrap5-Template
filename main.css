@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/*Variables*/
+:root {
+  --page-primary-color: #33CC99;
+  --page-primary-color-transparency: rgba(51,204,153,.7);
+  --page-secondary-color: #373737;
+  --page-body-background: #EEEEEE;
+  --page-header-font: 'Lato', Arial, sans-serif;
+}
+/*CSS*/
+body {
+  background-color: var(--page-body-background);
+}
+.navbar {
+  height: 104px;
+  transition: height .5s ease;
+}
+.navbarScroll {
+  background-color: var(--page-primary-color);
+  height: 74px;
+}
+.logo {
+  font-family: var(--page-header-font);
+  font-size: 2.5rem;
+  transition: font-size .5s ease;
+}
+.logoScroll {
+  font-size: 2rem;
+}
+.header {
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+}
+.header .heading-container {
+  background-color: var(--page-primary-color-transparency);
+  height: 400px;
+  padding-top: 125px;
+}
+.header .heading-container h1, .header .heading-container h2 {
+  font-family: var(--page-header-font);
+}
+.header .heading-container h2 {
+  font-size: 1.5rem;
+}
+.main {
+  margin-top: -25px;
+}
+.video-container {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+/*X-Small devices (portrait phones, 575px and less)*/
+@media (max-width: 575px) {
+  .header {
+    background-image: url('../img/bg-unsplash-575.jpg');
+    background-size: cover;
+    background-position: 50% 25%;
+  }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .header {
+    background-image: url('../img/bg-unsplash-575.jpg');
+    background-size: cover;
+    background-position: 50% 25%;
+  }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .header {
+    background-image: url('../img/bg-unsplash-900.jpg');
+    background-size: cover;
+    background-position: 50% 25%;
+  }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .header {
+    background-image: url('../img/bg-unsplash-1800.jpg');
+    background-size: cover;
+    background-position: 50% 25%;
+  }
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .header {
+    background-image: url('../img/bg-unsplash-1800.jpg');
+    background-size: cover;
+    background-position: 50% 40%;
+  }
+}
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
